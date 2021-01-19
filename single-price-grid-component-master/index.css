@@ -1,0 +1,105 @@
+                    /* GOOGLE FONT FAMILY  */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Open+Sans:wght@300&display=swap');
+
+
+            /* COULEURS  */
+.bg-secondary-body {
+    background-color: #dbe8f1;
+}
+.bg-success-foncer {
+    background-color: #2bb3b1;
+}
+
+.bg-success-clair {
+    background-color: #4abebd;
+}
+
+.bg-text-clair {
+    background-color: #94ecee;
+}
+
+.btn-sucess-bouton {
+    background-color: #bfdf32;
+}
+
+                /* CONTENUS PRINCIPAL  */
+
+                     /* HEADER   */
+h1  {
+    color: #2bb3b1;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#day30 {
+    font-weight: bold;
+    color: #bfdf32;
+}
+
+header > p:nth-last-child(1) {
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+                    /* FIN HEADER */
+
+                    /* MAIN */
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#dollar {
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+}
+
+#perMonth {
+    color: #dbe8f1;
+    padding-left: 0.5em;
+}
+
+main div p:nth-last-child(2) {
+    color: white;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+main div:nth-last-child(1) {
+    color: #dbe8f1;
+}
+                            /* FIN DE MAIN */
+
+                                /* FOOTER */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+                             /* FIN FOOTER */
+
+                         /* MEDIA QUERIES */
+
+
+@media (min-width:375px) {
+
+    h2 {
+        padding-left: 1em;
+    }
+    #dollar {
+        padding-left: 0.5em;
+    }
+    main div:nth-last-child(1) p {
+        padding-left: 1.5em;
+        font-size: 1.05em;
+    }
+
+    main div p:nth-last-child(2) {
+        padding-left: 1.5em;
+    }
+}
