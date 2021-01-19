@@ -1,0 +1,112 @@
+                               /* GOOGLE FONT */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+                               /* COLORS GUIDE */
+
+/*                  ### Primary
+    Red: hsl(0, 100%, 74%) 
+    Green: hsl(154, 59%, 51%) 
+
+                        ### Accent
+    Blue: hsl(248, 32%, 49%)
+
+                        ### Neutral
+    Dark Blue: hsl(249, 10%, 26%) 
+    Grayish Blue: hsl(246, 25%, 77%)
+
+*/
+
+                            
+
+
+                            /* STYLES PRINCIPAL */
+
+body {
+    background-image: url("../images/bg-intro-mobile.png");
+    background-color: hsl(0, 100%, 74%);
+   }
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25%;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+#button-blue {
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.25);
+
+}
+
+#exampleFormControlInput1 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+form {
+    border-radius: 10px;
+    box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.25);
+}
+
+#button-green {
+    background-color:hsl(154, 59%, 51%) ;
+    color: white;
+}
+
+#termsRed {
+    font-weight: bold;
+    color: red;
+}
+
+form p {
+    font-size: 10px;
+    text-align: center;
+    color: hsl(246, 25%, 77%) ;
+}
+                                        /* ATTRIBUTION */
+
+/* Feel free to remove these styles or customise in your own stylesheet 👍*/
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+                        /* MEDIA QUIERIES  */
+
+/* SIZE MODE  */
+/* Mobile: 375px
+Desktop: 1440px */
+
+                    /* DESKTOP */
+@media (min-width:1440px) {
+    header {
+        padding-top: 150px;
+    }
+
+    header h1 {
+        font-size: 45px;
+    }
+    #formulaire {
+        padding-top: 150px;
+    }
+
+    footer {
+        text-align: center;
+    }
+    
+}
